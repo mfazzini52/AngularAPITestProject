@@ -1,0 +1,20 @@
+<h1>Display of Public API Data using Angular</h1>
+
+<table class="table-bordered left">
+    <thead class="text-center">
+        <tr>
+            <th class="text-center">User</th>
+            <th class="text-center">Id</th>
+            <th class="text-center">Title</th>
+            <th class="text-center">Body</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let Array of Arrays">
+            <td>{{ Array.userId }}</td>
+            <td>{{ Array.id }}</td>
+            <td>{{ Array.title }}</td>
+            <td>{{ Array.body }}</td>
+        </tr>
+    </tbody>
+</table>
